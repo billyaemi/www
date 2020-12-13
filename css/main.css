@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'Norman';
+	src: local('☺︎'), url("../font/Norman_Regular.ttf") format("ttf");
+}
+@font-face {
+    src : url("../font/Futura_Book.otf");
+    font-family: 'Futura';
+}
+
+body{
+    /* width: 100%; */
+    /* height: 100vh; */
+    background-color: #131313;
+    background-image: url('../img/back_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: 5%; */
+    font-family: 'Norman','Futura',sans-serif;
+    /* -webkit-font-smoothing: antialiased;
+    word-spacing: -1px;
+    -webkit-text-size-adjust: none*/
+    width: 100vw; height: 100vh;
+    /* position: fixed; */
+    top: 0; left: 0;
+    overflow: hidden;
+    /* display: flex; */
+} 
